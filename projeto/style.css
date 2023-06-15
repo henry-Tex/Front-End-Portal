@@ -1,0 +1,48 @@
+:root{
+    --pramary-color: #E63946;
+    --light-primary: #EF8089;
+    --lightest-primary: #f2e6e7;
+    --secondary-color: #1D3557;
+    --light-secondary: #3867A8;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    background-color: var(--pramary-color);
+    color: var(--lightest-primary)
+}
+
+#espaço_debusca {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+header > h2 > i {
+    margin-right: 0.5rem;
+}
+
+.movie-name-wrapper {
+    width: 65%;
+}
+
+.movie-year-wrapper {
+    width: 30%;
+}
+
+#botaodebusca {
+    width: 5%;
+}
+
+.movie-year-wrapper > input {
+    max-width: 3rem;
+}
